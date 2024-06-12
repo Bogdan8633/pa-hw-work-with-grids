@@ -103,7 +103,7 @@ button {
 .text-wrapper {
   position: absolute;
   bottom: 11px;
-  right: 9px;
+  left: 9px;
 
   display: flex;
   padding: 8px;
