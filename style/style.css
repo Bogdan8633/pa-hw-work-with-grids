@@ -92,8 +92,13 @@ button {
 }
 
 .photo img {
-  /* height: 80%; */
   min-width: 210px;
+}
+
+@media screen and (max-width: 720px) {
+  .photo img {
+    width: 100%;
+  }
 }
 
 .photo-relative-container {
@@ -118,6 +123,16 @@ button {
   backdrop-filter: blur(2px);
 }
 
+@media screen and (max-width: 720px) {
+  .text-wrapper {
+    width: 90%;
+    align-items: center;
+
+    bottom: 4%;
+    left: 5%;
+  }
+}
+
 h1 {
   color: var(--light-color);
   font-size: 16px;
@@ -137,6 +152,12 @@ h1 {
 
   font-size: 12px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 720px) {
+  .text {
+    max-width: 80%;
+  }
 }
 
 h2 {
